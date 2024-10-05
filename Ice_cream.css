@@ -1,0 +1,48 @@
+body
+{
+    background-color: pink;
+}
+
+h1
+{
+    margin-left:580px;
+    margin-bottom:-50px;
+    
+}
+#container
+{
+    width: 500px;
+    height:600px;
+    background-color: rgba(209, 103, 121, 0.502);
+    border-radius: 25px;
+    align:center;
+    margin-left:480px;
+    
+}
+
+.add_item
+{
+    margin: 90px;
+    padding: 20px;
+    align : center;
+    line-height: 40px  ;
+
+}
+
+.add_item input
+{
+    border-radius: 25px;
+    height: 30px;
+    width: 300px;
+}
+
+button
+{
+    border-radius: 10px;
+    height:30px;
+
+}
+button:hover
+{
+    background-color: rgb(155, 158, 238);
+}

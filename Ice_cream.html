@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel = "stylesheet" href="Ice_cream.css">
+</head>
+<body>
+    <script src = "Ice_cream.js"></script>
+    <h1>Ice Cream Inventory</h1>
+    <div id = "container">
+        <div class="add_item">
+            <label>Flavor: <input type="text" id="flavor"></label><br>
+            <label>Price: <input type="number" id="price" ></label><br>
+            <label>Quantity: <input type="number" id="quantity"></label><br>
+            <button id="add" type="button" onclick="add_item_inventory()">Add the item</button><br>
+            <label>Flavor: <input type="text" id="restock_Flavor"></label><br>
+            <label>Quantity: <input type="number" id="restock_Quantity"></label><br>
+            <button id = "Restock" type = "button" onclick="restock_inventory()">Restock</button><br>
+            <button id = "Total_quantity" type = "button" onclick="total_quantity()">Total price</button><br>
+            <button id = "display" type = "button" onclick="display()">Display </button>
+        </div>
+        
+    </div>
+</body>
+</html>
